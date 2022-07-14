@@ -17,6 +17,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Assist"
         tools:targetApi="31">
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -28,8 +30,8 @@
         </activity>
 
         <meta-data
-            android:name="com.naver.maps.map.CLIENT_ID"
-            android:value="jvhms3kvrq" />
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBL8dcnahMFh0gqRycCTIMQ3UmLNWgidhc" />
 
     </application>
 
